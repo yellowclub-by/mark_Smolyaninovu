@@ -1,0 +1,15 @@
+# name = input("веддите своё имя ")
+# surname = input("веддите своё фамилию ")
+# height = int(input("веддите свой рост "))
+# weight = float( input("веддите свой вес"))
+# # print("Ученик" , name , surname , "рост"  , height  , "вес" , weight)
+
+# name = input("веддите своё имя ")
+# print("Привет", name + "! Как  дела ?")
+# print(f"Привет{name} !Как дела?")
+
+name = input("веддите своё имя ")
+surname = input("веддите своё фамилию ")
+height = int(input("веддите свой рост "))
+weight = float( input("веддите свой вес"))
+print(f"ученик {name} {surname}.рост {height}, вес {weight} ")
